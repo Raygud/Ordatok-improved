@@ -1,0 +1,360 @@
+
+
+
+
+#btns{
+    padding: 0;
+    border: none;
+    background: none;
+    padding-left: 1%;
+    font-size:1.5vw;
+    transition: 200ms ease-in-out;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+#btns:hover{
+  transform: scale(1.2);
+  color: rgb(0, 0, 0);
+}
+
+#btns-center{
+    text-align: center;
+}
+
+#svglogo{
+    height: 10%;
+    width: 10%;
+    text-align: left;
+    margin: 1%;
+}
+
+.container {
+    position: relative;
+    color: rgb(0, 0, 0);
+    
+  }
+
+  
+  /* Centered text */
+  .Header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:7vw;
+    color: rgb(0, 0, 0);
+  }
+
+  #line {
+    background-color: rgb(112, 112, 112);
+   width: 100%;
+   
+    border: 0.3vw solid rgb(112, 112, 112);
+  
+  }
+
+  #center{
+    margin: auto;
+    width: 60%;
+    border: 5px solid #f697ff;
+    padding: 10px;
+  }
+
+  #p1{ 
+    font-size:1.5vw;
+    font-family: 'Merriweather', serif;
+    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: .03em;
+  padding-bottom: 1vw;
+  }
+
+  h2{
+    
+      font-size:3vw;
+    
+  }
+
+  /* hide scrollbar but allow scrolling */
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.typewriter h3 {
+  text-align: center;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  color: black;
+  white-space: nowrap; 
+  font-family: 'Handlee', cursive;
+  margin: 0 auto; 
+  font-size: 3vw;
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(255, 166, 0, 0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    #btns{
+      padding: 0;
+      border: none;
+      background: none;
+      padding-left: 1%;
+      font-size:1.5vw;
+      transition: 200ms ease-in-out;
+      color: rgba(0, 0, 0, 0.678);
+  }
+  
+  #btns:hover{
+    transform: scale(1.2);
+    color: rgb(0, 0, 0);
+  }
+  
+  #btns-center{
+      text-align: center;
+  }
+  
+  #svglogo{
+      height: 10%;
+      width: 10%;
+      text-align: left;
+      margin: 1%;
+  }
+  
+  .container {
+      position: relative;
+      color: rgb(0, 0, 0);
+      
+    }
+  
+    
+    /* Centered text */
+    .Header {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:7vw;
+      color: rgb(0, 0, 0);
+    }
+  
+    #line {
+      background-color: rgb(112, 112, 112);
+     width: 100%;
+     
+      border: 0.3vw solid rgb(112, 112, 112);
+    
+    }
+  
+    #center{
+      margin: auto;
+      width: 60%;
+      border: 5px solid #f697ff;
+      padding: 10px;
+    }
+  
+    #p1{ 
+      font-size:1.5vw;
+      font-family: 'Merriweather', serif;
+      -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+    padding-bottom: 1vw;
+    }
+  
+    h2{
+      
+        font-size:3vw;
+      
+    }
+  
+    /* hide scrollbar but allow scrolling */
+  body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  
+  .typewriter h3 {
+    text-align: center;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    color: black;
+    white-space: nowrap; 
+    font-family: 'Handlee', cursive;
+    margin: 0 auto; 
+    font-size: 3vw;
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(255, 166, 0, 0); }
+  }}
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (max-device-height: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #btns{
+      padding: 0;
+      border: none;
+      background: none;
+      padding-left: 2%;
+      padding-bottom: 2vw;
+      font-size:4vw;
+      
+  }
+  
+  #btns-center{
+      text-align: center;
+      overflow: auto;
+  white-space: nowrap; 
+  }
+  
+  #svglogo{
+      height: 10%;
+      width: 10%;
+      text-align: left;
+      margin: 1%;
+  }
+  
+  .container {
+      position: relative;
+      color: rgb(0, 0, 0);
+      
+    }
+  
+    
+    /* Centered text */
+    .Header {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:7vw;
+      color: rgb(0, 0, 0);
+    }
+  
+    #line {
+      background-color: rgb(112, 112, 112);
+     width: 100%;
+     
+      border: 0.3vw solid rgb(112, 112, 112);
+    
+    }
+
+    #center{
+      margin: auto;
+      width: 90%;
+      border: 5px solid #f697ff;
+    }
+  
+    #p1{ 
+      font-size:4vw;
+      font-weight: 800;
+      font-family: 'Merriweather', serif;
+    }
+  
+    h2{
+      
+        font-size:5vw;
+      
+    }
+  
+    /* hide scrollbar but allow scrolling */
+  body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  
+  .typewriter h3 {
+    text-align: center;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    color: black;
+    white-space: nowrap; 
+    font-family: 'Handlee', cursive;
+    margin: 0 auto; 
+    font-size: 6vw;
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+}

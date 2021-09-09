@@ -1,0 +1,5 @@
+ONLY WHEN CLICKED
+Array history -1
+on click register click = Add A() too array
+Previous on click down Array -1
+Incriment Array number i++
