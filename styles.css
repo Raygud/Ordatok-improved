@@ -56,7 +56,7 @@
   #center{
     margin: auto;
     width: 60%;
-    border: 5px solid #f697ff;
+    /* border: 5px solid #f697ff; */
     padding: 10px;
   }
 
@@ -117,7 +117,129 @@ body::-webkit-scrollbar {
   50% { border-color: rgba(255, 166, 0, 0); }
 }
 
+ul{
+  list-style-type: none;
+}
 
+
+#SayingsSearched{
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+.SayingsSearched > a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+#SearchContainer{
+  position: absolute;
+  left: 35vw;
+  top: 10vw;
+  width: 30vw;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  transition: 300ms ease-in-out;
+  z-index: 5;
+}
+
+#SearchContainer > ul{
+  max-height: 0;
+  max-width: 29.5vw;
+  overflow: scroll;
+  /* background-color: white;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.521);
+  border-top: none; */
+  font-size: 3vw;
+}
+
+#SearchContainer > ul > li{
+ padding: 0.5vw;
+ border-bottom: solid;
+ border-color: rgba(0, 0, 0, 0.123);
+}
+
+#SearchContainer > ul > li > h6{
+  margin: 0;
+  padding: 0;
+  font-size: 1.6vw;
+}
+
+#SearchContainer > ul > li > p{
+  margin-top: 0.1vw;
+  font-size: 1.5vw;
+}
+
+#SearchContainer:hover > ul{
+  text-align: left;
+  max-height: 40vh;
+  max-width: 29.5vw;
+  overflow: scroll;
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.521);
+  border-top: none; 
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+
+
+#SearchContainer > i{
+  position: absolute;
+  right: 0.5vw;
+  top: 0.3vw;
+  font-size: 0.8vw;
+}
+
+#SearchContainer:hover{
+  box-shadow: 0.9vw 0.9vw 2vw rgba(0, 0, 0, 0.55);
+  max-height: 40vh;
+}
+
+#SearchBar{
+  width: 98.5%;
+  margin: 0;
+  padding: 0;
+}
+
+#Contact{
+  border-top: solid;
+  border-color: rgb(112, 112, 112);
+  margin-top: 6vw;
+  text-align: center;
+  font-size: 8vw;
+}
+
+#Contact > a > i{
+  padding-top: 6vw;
+  text-decoration: none;
+  margin-left: 3vw;
+}
+
+#Contact > a:nth-child(1){
+  background: -webkit-linear-gradient(rgb(128, 0, 255), rgb(255, 0, 225));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Contact > a:nth-child(2){
+  color: blue;
+}
+
+#Contact > a:nth-child(3){
+  color: red;
+}
 
 
 
@@ -189,7 +311,6 @@ body::-webkit-scrollbar {
     #center{
       margin: auto;
       width: 60%;
-      border: 5px solid #f697ff;
       padding: 10px;
     }
   
@@ -314,7 +435,6 @@ body::-webkit-scrollbar {
     #center{
       margin: auto;
       width: 90%;
-      border: 5px solid #f697ff;
     }
   
     #p1{ 
@@ -355,6 +475,13 @@ body::-webkit-scrollbar {
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
+  }
+  #Contact{
+    border-top: solid;
+    border-color: rgb(112, 112, 112);
+    margin-top: 6vw;
+    text-align: center;
+    font-size: 23vw;
   }
 
 }

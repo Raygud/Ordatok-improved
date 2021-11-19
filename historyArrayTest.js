@@ -5,7 +5,7 @@
 
  function A(){
      history.push("a");   // Adds "a" to history array 
-     Previouspage = history[i++ -1] // Incriment Array for every new addition and go one index back
+     Previouspage = history[i++] // Incriment Array for every new addition and go one index back
  }
 
  function B(){

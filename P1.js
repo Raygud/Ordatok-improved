@@ -1,6 +1,7 @@
 const history = ["Heim","Heim","Heim",]
  let i = 3;
  let Previouspage
+ let backed;
 
 window.addEventListener("load", () =>{
     console.log("hello")
@@ -10,13 +11,14 @@ window.addEventListener("keydown", (e) =>{
     document.body.onkeydown = function(e){
         if (e.keyCode == 8){
         window[Previouspage]();
-        console.log(i)
-        console.log(Previouspage)
-        console.log(history)
+        console.log(history + history[i++ -1])
+        // console.log(Previouspage)
+        backed = true
     }}})
 
 
 function Heim(){
+    
     
     Previouspage = "Heim"
     document.getElementById("h2").style.textAlign = "center";
@@ -48,11 +50,13 @@ function A(){
     +"Alt sodnar í sveins maga.<br><br>"
     +"Altíð bagir illum barni okkurt.<br><br>"
     +"Amari kemur aftan á sparara.";
-    if(document.getElementById('
-"btns").clicked == true)
-    {
-       alert("button was clicked");
-    }
+//     if(document.getElementById('
+// "btns").clicked == true)
+//     {
+//        alert("button was clicked");
+//     }
+
+    
 
     history.push("A");   // Adds "x" to history array 
      Previouspage = history[i++ -1] // Incriment Array for every new addition and go one index back
@@ -88,7 +92,7 @@ function B(){
 +"Bert er bróðurleyst bak.<br><br>"
 +"Best er at binda um heilan fingur.<br><br>"
 +"Best er heim at aka, meðan vagnurin er heilur.<br><br>"
-+"Betri er at vera fyrir varin enn eftir snarin<br><br>"
++"Betri er at vera fyrir varin enn eftir snarin.<br><br>"
 +"Betri er at flýggja enn at falla.<br><br>"
 +"Betri er at vera góðs mans frilla enn gift illa.<br><br>"
 +"Betri er at verja borg enn at herja borg.<br><br>"
@@ -715,7 +719,7 @@ function Samband(){
     document.getElementById("pickerText").innerHTML = "";
     document.getElementById("center").style.width = "90%";
     document.getElementById("p1").style.textAlign = "left";
-    document.getElementById("h2").innerHTML = "";
+    document.getElementById("h2").innerHTML = "Samband";
     document.getElementById("p1").innerHTML = "ÀÀÀÀÀÀÀÀ";
 
     history.push("Samband");   // Adds "x" to history array 
